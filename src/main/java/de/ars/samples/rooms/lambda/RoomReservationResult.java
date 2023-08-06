@@ -1,4 +1,4 @@
-package de.ars.samples.lambda.lambda;
+package de.ars.samples.rooms.lambda;
 
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -9,6 +9,12 @@ import java.util.UUID;
 @Builder(access = AccessLevel.PRIVATE)
 @Getter
 public class RoomReservationResult {
+
+    public enum RoomReservationStatus {
+
+        SUCCESSFUL, INVALID, UNAVAILABLE
+
+    }
 
     private RoomReservationStatus status;
     private UUID uuid;

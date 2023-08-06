@@ -15,7 +15,7 @@ dependencies {
     implementation 'com.amazonaws:aws-lambda-java-core:1.2.2'
     // contains pre-defined events/responses
     // (e.g. for invocation from API Gateway)
-    // implementation 'com.amazonaws:aws-lambda-java-events:3.11.2'
+    implementation 'com.amazonaws:aws-lambda-java-events:3.11.2'
 
     implementation 'com.amazonaws:aws-lambda-java-log4j2:1.5.1'
 

@@ -1,4 +1,4 @@
-package de.ars.samples.lambda.lambda;
+package de.ars.samples.rooms.lambda;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;

@@ -1,10 +1,10 @@
-package de.ars.samples.lambda.lambda;
+package de.ars.samples.rooms.lambda;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import de.ars.samples.lambda.domain.RoomReservationInvalidException;
-import de.ars.samples.lambda.domain.RoomReservationUnavailableException;
-import de.ars.samples.lambda.domain.RoomReservationService;
+import de.ars.samples.rooms.domain.RoomReservationInvalidException;
+import de.ars.samples.rooms.domain.RoomReservationUnavailableException;
+import de.ars.samples.rooms.domain.RoomReservationService;
 import lombok.extern.log4j.Log4j2;
 
 /**

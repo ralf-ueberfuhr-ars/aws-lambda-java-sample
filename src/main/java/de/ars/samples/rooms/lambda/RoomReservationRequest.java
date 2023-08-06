@@ -1,4 +1,4 @@
-package de.ars.samples.lambda.lambda;
+package de.ars.samples.rooms.lambda;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
